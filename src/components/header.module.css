@@ -1,0 +1,32 @@
+.header {
+  background: #000;
+  margin-bottom: 1.45rem;
+}
+
+.title {
+  margin: 0 auto;
+  padding: 1.45rem 1.0875rem;
+  text-align: center;
+}
+
+.h1 {
+  margin: 0;
+}
+
+.link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.menu {
+  margin: 0;
+}
+
+.menuList {
+  display: inline-block;
+  margin: 15px 10px 0 0;
+}
+
+.menuList:last-child {
+  margin-right: 0;
+}
