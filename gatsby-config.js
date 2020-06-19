@@ -13,5 +13,16 @@ module.exports = {
     hoge: `hoge`
   },
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    // ローカルファイルのデータをGatsbyに渡せるプラグイン
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/blog`,
+        name: "blog",
+      },
+    },
+    // マークダウンを扱うプラグイン
+    "gatsby-transformer-remark",
+  ],
 }
