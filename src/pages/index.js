@@ -4,6 +4,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostLink from "../components/post-link"
+import { graphql } from "gatsby"
 // import picture1 from "../images/picture1.jpg";
 
 const IndexPage = ({
@@ -22,7 +23,6 @@ const IndexPage = ({
   return (
     <Layout>
       <SEO title="Home" />
-      <h1>index.js</h1>
       {/* <img src={picture1} alt="picture1" style={{ width: `300px`, marginBottom: `1.45rem` }} /> */}
       <div>{Posts}</div>
     </Layout>

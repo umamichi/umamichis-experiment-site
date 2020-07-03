@@ -35,10 +35,21 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © umamichi
-        </footer>
       </div>
+      <footer
+        style={{
+          position: `fixed`,
+          bottom: 0,
+          background: `#000`,
+          left: 0,
+          right: 0,
+          color: `#fff`,
+          textAlign: `center`,
+          fontSize: 14
+        }}
+      >
+        © umamichi
+      </footer>
     </>
   )
 }

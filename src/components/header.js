@@ -11,10 +11,10 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <ul className={styles.menu}>
-        <li className={styles.menuList}><Link to="/" className={styles.link}>blog</Link></li>
-        <li className={styles.menuList}><Link to="/" className={styles.link}>profile</Link></li>
-      </ul>
+      {/* <ul className={styles.menu}> */}
+        {/* <li className={styles.menuList}><Link to="/" className={styles.link}>blog</Link></li> */}
+        {/* <li className={styles.menuList}><Link to="/" className={styles.link}>profile</Link></li> */}
+      {/* </ul> */}
     </div>
   </header>
 )

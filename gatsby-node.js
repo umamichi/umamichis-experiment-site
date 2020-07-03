@@ -2,7 +2,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
 
   // blogのテンプレートを指定
-  const blogPostTemplate = require.resolve(`./src/templates/blogTemplate.js`)
+  const blogPostTemplate = require.resolve(`./src/templates/blog-template.js`)
 
   // graphQLでマークダウンファイルを取得する
   const result = await graphql(`

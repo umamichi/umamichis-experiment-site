@@ -7,8 +7,8 @@
 module.exports = {
   // metaタグ
   siteMetadata: {
-    title: `Umamichi's site 🎠`,
-    description: `this is description in gatsby-config.js`,
+    title: `Umamichi Frontend Developer 🎠`,
+    description: `this is Umamichi's Frontend Develop Blog 🎠`,
     author: `@umamichi`,
     hoge: `hoge`
   },
