@@ -7,12 +7,12 @@ console.log('styles:', styles);
 
 // 記事へのリンクを生成する
 const PostLink = ({ post }) => (
-  <div className={styles.linkBox}>
-    <Link to={post.frontmatter.slug} className={styles.link}>
-      <h2 className={styles.title}>{post.frontmatter.title}</h2>
-      <div className={styles.date}>{post.frontmatter.date}</div>
-    </Link>
-  </div>
+  <Link to={post.frontmatter.slug} className={styles.link}>
+    <div className={styles.linkBox}>
+        <h2 className={styles.title}>{post.frontmatter.title}</h2>
+        <div className={styles.date}>{post.frontmatter.date}</div>
+    </div>
+  </Link>
 )
 
 export default PostLink
