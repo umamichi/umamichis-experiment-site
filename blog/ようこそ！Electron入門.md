@@ -1,11 +1,9 @@
 ---
-path: "/blog/my-first-post"
-slug: "/blog/my-first-post"
+path: "/blog/2017-11-07"
 date: "2017-11-07"
 title: "ようこそ！Electron入門"
 ---
 
-ようこそ！Electron入門
 <img src="https://camo.githubusercontent.com/5dd01312b30468423cb45b582b83773f5a9019bb/687474703a2f2f656c656374726f6e2e61746f6d2e696f2f696d616765732f656c656374726f6e2d6c6f676f2e737667" width="100%">
 
 ## Electronって？

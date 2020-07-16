@@ -12,13 +12,13 @@ const IndexPage = ({
     allMarkdownRemark: { edges },
   },
 }) => {
-  console.log('edges:', edges);
+  // console.log('edges:', edges);
   
   // ブログ一覧
   const Posts = edges
     // 日付があるものだけ選択？
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
+    .map(edge => <PostLink key={edge.node.id} post={edge.node} style={{ marginTop: 50 }}/>);
 
   return (
     <Layout>
@@ -41,7 +41,7 @@ export const pageQuery = graphql`
           excerpt(pruneLength: 250)
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
-            slug
+            path
             title
           }
         }
